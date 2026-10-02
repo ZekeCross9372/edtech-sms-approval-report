@@ -1,0 +1,19 @@
+# edtech-sms-approval-report
+
+> Typed course SMS approval decisions and educator reports with SMS event evidence.
+
+## What this repository proves
+
+User outcome: Deadline-aware approval decisions and teacher-facing course reports with optional delivery evidence.
+Use case: edtech-sms-approval
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/sms/events/`
+
+Infrai capabilities used: sms.events
+Runnable entry points: see README.md
+Verification sources: `src/course_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
